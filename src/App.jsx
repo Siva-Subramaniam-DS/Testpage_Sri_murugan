@@ -9,7 +9,7 @@ import { CartProvider } from './context/CartContext';
 function App() {
   return (
     <CartProvider>
-      <Router>
+      <Router basename="/Testpage_Sri_murugan/">
         <div className="font-body min-h-screen flex flex-col bg-cream-50">
           <Header />
           <main className="flex-grow">
