@@ -231,13 +231,5 @@ export const offers = [
     discount: 'BUY 2 GET 1',
     image: 'https://images.pexels.com/photos/4252137/pexels-photo-4252137.jpeg?auto=compress&cs=tinysrgb&w=600',
     category: 'kitchenware'
-  },
-  {
-    id: 3,
-    title: 'Back to School Offer',
-    description: 'Special prices on all stationery items',
-    discount: '25% OFF',
-    image: 'https://images.pexels.com/photos/207665/pexels-photo-207665.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'stationery'
   }
 ];
