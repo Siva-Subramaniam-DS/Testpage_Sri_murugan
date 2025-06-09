@@ -3,9 +3,9 @@ import { Search, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const heroImages = [
-  'src/BackImagefirst.png',
-  'src/BackImagesecond.png',
-  'src/Backimagethird.png'
+  import.meta.env.BASE_URL + 'BackImagefirst.png',
+  import.meta.env.BASE_URL + 'BackImagesecond.png',
+  import.meta.env.BASE_URL + 'Backimagethird.png'
 ];
 
 function HeroBanner() {
@@ -31,7 +31,7 @@ function HeroBanner() {
         <img
           key={img}
           src={img}
-          alt="Hero Slide"
+          alt=""
           className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-1000 ${idx === currentImage ? 'opacity-100' : 'opacity-0'}`}
           style={{ zIndex: 0 }}
         />
